@@ -66,7 +66,7 @@ def get_unique_words_in_file2(file_path, min_length):
 
 if __name__ == "__main__":
     from timeit import Timer
-    myFilename = "sample_data/VictorHugo_Les_miserables_UTF8.txt"
+    myFilename = "sample_data/Victor_Hugo-Les_miserables_Tome_1_UTF8.txt"
     t1 = Timer("get_unique_words_in_file1(myFilename, 3)",
                setup="from __main__ import get_unique_words_in_file1,myFilename")
     t1.timeit(1)
