@@ -1,0 +1,4 @@
+Ceci est la ligne numéro 1
+et la ligne numéro deux
+d'un fichier texte qui au final contiendra
+quatre lignes !
